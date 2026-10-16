@@ -187,3 +187,9 @@ function resetCount() {
 }
 
 increaseButton.style.cursor = "pointer";
+
+const yesButton = document.getElementById("yes");
+
+yesButton.addEventListener("click", () => {
+  alert("Git makes changes easy to track!");
+});
