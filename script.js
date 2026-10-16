@@ -185,3 +185,5 @@ function resetCount() {
   count = 0;
   updateDisplay();
 }
+
+increaseButton.style.cursor = "pointer";
